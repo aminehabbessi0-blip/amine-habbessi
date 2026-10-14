@@ -1,0 +1,36 @@
+
+img{
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+nav a[aria-current="page"] {
+    color: white;
+    background-color: #2457a7;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+
+/* Style des liens */
+nav a {
+    color: #2457a7;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+form{
+    width: 300px;
+
+}
